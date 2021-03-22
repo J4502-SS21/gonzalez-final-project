@@ -1,0 +1,85 @@
+body{  /*backgound of the page as a whole*/
+  background-color:#ffffff;
+  color:#2E3532;
+  margin:0;
+  width:100%;
+  text-align:center;
+  padding-bottom:50px;
+}
+
+nav{/*navigation bar*/
+  background:#576059;
+  color:#EAF9D9;
+  border-bottom: 3px solid white;
+  width:100%;
+  margin:30px;
+  display:block;
+  float:left;
+}
+
+.menu-item{
+  display:block;
+  float:left;
+  width:10%;
+  margin:5px;
+  padding:10px;
+}
+
+#nav-bar{
+  color:#EAF9D9;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+section{ /* h1, h2, text color and background*/
+  color:#E07000;
+  background:#F6F0ED;
+  padding:10px;
+  box-shadow:1px 1px 10px black;
+}
+
+h1{
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  font-style:normal;
+  font-weight:700;
+}
+h2{
+  font-family: 'Bodoni Moda', serif;
+  font-size:28px;
+  font-style:normal;
+  font-weight: 300;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  margin:7px auto;
+  text-align:center;
+}
+
+img{ /* currently for all images*/
+  border:0;
+  margin:20px;
+  width:60%;
+  max-width:500px;
+  min-width:200px;
+}
+
+#comments{ /*index pg*/
+  font-size:28px;
+  font-style:normal;
+  font-weight:normal;
+}
+#film{ /* photo page*/
+  border:0;
+  margin:20px;
+  width:40%;
+  max-width:300px;
+  min-width:200px;
+}
+#digital{
+  border:0;
+  /*center photo*/
+}
