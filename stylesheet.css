@@ -59,12 +59,18 @@ p{
   text-align:center;
 }
 
-img{ /* currently for all images*/
+img{
   border:0;
   margin:20px;
   width:60%;
   max-width:500px;
   min-width:200px;
+  }
+
+#img1{
+  border:0;
+  margin:20px;
+  width:40%
 }
 
 #comments{ /*index pg*/
