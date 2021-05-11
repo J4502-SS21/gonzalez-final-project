@@ -158,8 +158,6 @@ img{
   opacity: 1;
 }
 
-</div>
-
 #comments{ /*index pg*/
   font-size:28px;
   font-style:normal;
@@ -183,4 +181,15 @@ img{
   width:30%;
   max-width:300px;
   min-width:100px;
+}
+
+#about-text-photo{
+  display:flex;
+  flex-direction:row;
+}
+
+@media screen and (min-width:725px){
+  #about-text-photo{
+    flex-direction:column;
+  }
 }
