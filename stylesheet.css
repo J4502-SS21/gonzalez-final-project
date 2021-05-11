@@ -61,8 +61,9 @@ h2{
 p{
   font-family: 'Raleway', sans-serif;
   font-size:18px;
-  margin:7px auto;
+  margin:20px auto;
   text-align:center;
+  width:70%
 }
 
 * {
@@ -155,23 +156,36 @@ p{
   opacity: 1;
 }
 
-#comments{ /*index pg*/
+ /*index pg*/
+#comments{
   font-size:28px;
   font-style:normal;
   font-weight:normal;
 }
-#film{ /* photo page*/
+
+/* photo page*/
+#film{
   border:0;
   margin:20px;
   width:40%;
   max-width:300px;
   min-width:200px;
 }
+
 #digital{
   border:0;
-  /*center photo*/
 }
 
+/*basics page*/
+#exposure-triangle{
+  border:0;
+  margin:20px;
+  width:70%;
+  max-width:500px;
+  min-width:200px;
+}
+
+/*portfolio page*/
 #ballet{
   border:0;
   margin:20px;
@@ -179,7 +193,7 @@ p{
   max-width:300px;
   min-width:100px;
 }
-
+/* profile photo on index page*/
 #about-text-photo{
   display:flex;
   flex-direction:row;
